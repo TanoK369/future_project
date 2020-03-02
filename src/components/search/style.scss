@@ -1,0 +1,16 @@
+.search{
+   display: flex;
+   justify-content: center;
+   margin: 30px;
+   &__input{
+      line-height: 25px;
+      padding: 0 20px;
+   }
+   &__button{
+      border-radius: 3px;
+      background: green;
+      color: #ffffff;
+      border: 0;
+      margin-left: 10px;
+   }
+}

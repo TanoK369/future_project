@@ -1,0 +1,55 @@
+.table{
+   &__th{
+      color: #fff;
+      background-color: #343a40;
+      border-color: #454d55;
+      vertical-align: bottom;
+      border-bottom: 2px solid #dee2e6;
+      cursor: pointer;
+   }
+   &__th-container{
+      display: flex;
+   }
+   &__th-icon{
+      margin-left: 5px;
+      img{
+         width: 15px;
+         color: #ffffff;
+      }
+   }
+   &__error{
+      text-align: center;
+      font-size: 36px;
+      color: red;
+   }
+   table{
+      width: 100%;
+      margin-bottom: 1rem;
+      color: #212529;
+      border-spacing: 0;
+   }
+   thead{
+      display: table-header-group;
+      vertical-align: middle;
+      border-color: inherit;
+   }
+   td, th {
+      padding: .75rem;
+      vertical-align: top;
+      border-top: 1px solid #dee2e6;
+   }
+   tr{
+      display: table-row;
+      vertical-align: inherit;
+      border-color: inherit;
+      &:hover{
+         cursor: pointer;
+         background-color: #fff5f5;
+      }
+   }
+   tbody{
+      display: table-row-group;
+      vertical-align: middle;
+      border-color: inherit;
+   }
+}
